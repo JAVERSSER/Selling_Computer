@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /e/Flutter/selling_computer -type f ! -path */.* ! -path */build/* ! -path */.dart_tool/* ! -path */android/* ! -path */ios/* ! -path */linux/* ! -path */macos/* ! -path */windows/* ! -path */web/* ! -path */.idea/*)",
+      "Bash(flutter pub:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(python3 -c \":*)",
+      "Bash(powershell -Command \"Get-Content ''e:/Flutter/selling_computer/lib/widgets/product_image.dart'' | Select-Object -Index 33\")",
+      "Bash(powershell -Command \"Get-Content ''e:/Flutter/selling_computer/lib/screens/customer/home_screen.dart'' | Select-Object -Index 161\")",
+      "Bash(powershell -Command \"\\(Get-Content ''e:/Flutter/selling_computer/lib/screens/customer/home_screen.dart'' -Raw\\) -replace ''itemBuilder: \\\\\\(_\\\\\\) => \\\\['', ''itemBuilder: \\(_\\) => <PopupMenuEntry>['' | Set-Content ''e:/Flutter/selling_computer/lib/screens/customer/home_screen.dart'' -NoNewline\")"
+    ]
+  }
+}
